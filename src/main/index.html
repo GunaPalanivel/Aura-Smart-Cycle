@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aura - main</title>
+    <link rel="icon" href="../assets/aura_icon.png">
+    <style>
+        body {
+            font-family: "Inter var", ui-sans-serif, system-ui, -apple-system,
+                BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
+                sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+                "Noto Color Emoji";
+            background-color: #000000;
+        }
+
+        .typewriter-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 40rem;
+        }
+
+        .static-text {
+            color: #e5e5e5;
+            font-size: 20px;
+            line-height: 24px;
+            margin-bottom: 20px;
+        }
+
+        .typewriter-text {
+            color: #ffffff;
+            font-size: 58px;
+            font-weight: 700;
+            line-height: 48px;
+            white-space: nowrap;
+        }
+
+        .button-container {
+            margin-top: 20px;
+        }
+
+        .join-button,
+        .signup-button {
+            appearance: button;
+            background-color: #000000;
+            border: 1.06667px solid #ffffff;
+            border-radius: 12px;
+            color: #ffffff;
+            cursor: pointer;
+            font-size: 14px;
+            line-height: 20px;
+            margin: 0px 8px;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            /* Remove underline */
+        }
+
+        .signup-button {
+            margin-left: 16px;
+            /* Add margin between buttons */
+            border-color: #000000;
+            background-color: #ffffff;
+            color: #000000;
+        }
+
+        nav {
+            margin-top: 20px;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0px 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="typewriter-container">
+        <p id="static-text" class="static-text">The road to freedom starts from here</p>
+        <p id="typewriter-text" class="typewriter-text"></p>
+        <div class="button-container">
+            <div>
+                <a href="demo.html" class="join-button" target="_blank">Product</a>
+                <a href="signup.html" class="signup-button" target="_blank">Register</a>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const staticTextElement = document.getElementById("static-text");
+            const typewriterTextElement = document.getElementById("typewriter-text");
+            const typewriterText = "The future of cycling is here - ";
+            const auraText = "<span style='color: #0959aa;'>Aura</span>";
+            const fullTypewriterText = typewriterText + auraText;
+            const delay = 100; // Delay between each character (in milliseconds)
+            let index = 0;
+
+            function typeWriter() {
+                if (index < fullTypewriterText.length) {
+                    if (index === typewriterText.length) {
+                        typewriterTextElement.insertAdjacentHTML('beforeend', auraText);
+                        index += auraText.length;
+                    } else {
+                        typewriterTextElement.insertAdjacentHTML('beforeend', fullTypewriterText.charAt(index));
+                        index++;
+                    }
+                    setTimeout(typeWriter, delay);
+                }
+            }
+
+            setTimeout(() => {
+                typeWriter();
+            }, 1000); // Delay before starting typewriter effect (in milliseconds)
+
+            // Button functionality
+            const joinButton = document.querySelector(".join-button");
+            const signupButton = document.querySelector(".signup-button");
+
+            joinButton.addEventListener("click", function () {
+                console.log("About us button clicked");
+            });
+
+            signupButton.addEventListener("click", function () {
+                console.log("Signup button clicked");
+            });
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+* {
+  font-family: "Inter var", ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji";
+}
+
+.typewriter-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #000000;
+}
+
+.static-text {
+  color: #6d6d6d;
+  font-size: 20px;
+  line-height: 3;
+  margin-top: 20px;
+}
+
+.typewriter-text {
+  color: #ffffff;
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 48px;
+  white-space: nowrap;
+}
+
+.buttonContainer {
+  box-sizing: border-box;
+  display: flex;
+  gap: 16px;
+  margin: 40px 0px 0px;
+}
+
+.join-button,
+.signup-button {
+  text-transform: capitalize;
+  align-items: flex-start;
+  appearance: button;
+  border: 0.8px solid #ffffff;
+  border-radius: 12px;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.join-button {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.signup-button {
+  background-color: white;
+  color: #000000;
+  margin-right: 16px;
+}
+
+nav {
+  margin-top: 20px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0px 8px;
+}
