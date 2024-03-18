@@ -26,6 +26,15 @@ Features Expected
 - Tracking and map integration
 - Integration of AI preferrable
 
+# Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+- React
+- TypeScript
+- Material UI
+
 # Installation
 
 It is developed using React and contains various components and dependencies. Below is a guide on how to set up and run the project after cloning it from GitHub.
