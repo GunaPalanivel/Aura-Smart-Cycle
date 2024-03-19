@@ -12,7 +12,7 @@ Supported by reliable customer support, Aura offers prompt assistance and guidan
 
 # This Is a Hackathan Project
 
-### Project by Madras Institute of Technology is an engineering institute located in Chromepet, Chennai, India.
+### [Project by Madras Institute of Technology is an engineering institute located in Chromepet, Chennai, India.](https://www.mitindia.edu/en/)
 
 ### Statement From MIT
 
@@ -25,15 +25,23 @@ Features Expected
 - Booking management
 - Tracking and map integration
 - Integration of AI preferrable
+  
+# Our Team Members (Team Name - Mavericks)
+
+1. [Guna Palanivel](https://www.linkedin.com/in/guna-palanivel/)
+2. [Pranav KR](https://www.linkedin.com/in/pranav-k-r/)
+3. [Manoj SR](https://www.linkedin.com/in/manoj-sasikumar/)
+4. [Sri Ram](https://www.linkedin.com/in/sriram1827/)
+5. [Dinesh Raj](https://www.linkedin.com/in/dinesh-raj-r/)
 
 # Technologies Used
 
-- HTML
-- CSS
-- JavaScript
-- React
-- TypeScript
-- Material UI
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [React](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Material UI](https://mui.com/material-ui/)
 
 # Installation
 
@@ -135,14 +143,6 @@ This will run the app in development mode and open it in your default web browse
 - The project utilizes Material-UI components for styling and layout.
 - The ChatBot component is also integrated into the application for chat functionality.
 - Make sure to refer to the project's documentation and source code for detailed usage and implementation.
-
-# Our Team Members (Team Name - Mavericks)
-
-1. Guna Palanivel
-2. Pranav KR
-3. Manoj SR
-4. Sri Ram
-5. Dinesh Raj
 
 # How to Contribute
 
