@@ -1,14 +1,8 @@
 # Aura
 
-### Detailed Description
+### Description
 
-Aura is a sophisticated web application built with React, aimed at transforming the way people approach cycling. It offers a comprehensive solution for bike rentals, urban commuting, and cycling enthusiasts. By seamlessly integrating AI technology, Aura provides intuitive navigation, optimal performance, and precise control, making every ride safe and enjoyable.
-
-Key features of Aura include real-time bike availability, booking, and in-app unlocking, making bike rentals hassle-free and convenient. The application also includes advanced tracking systems, precision braking, and extended battery life technology, ensuring riders have a smooth and uninterrupted experience.
-
-With a focus on user experience, Aura boasts a user-friendly design that caters to cyclists of all levels. From casual riders exploring city streets to seasoned cyclists conquering rugged terrains, Aura adapts to various cycling environments with ease.
-
-Supported by reliable customer support, Aura offers prompt assistance and guidance to users, ensuring a seamless and enjoyable experience from start to finish. Whether you're commuting to work, exploring new routes, or simply enjoying a leisurely ride, Aura is the ultimate companion for all your cycling adventures.
+Aura is a sophisticated web application built with React, aimed at transforming the way people approach cycling. It offers a comprehensive solution for bike rentals, urban commuting, and cycling enthusiasts. By seamlessly integrating AI technology, Aura provides intuitive navigation, optimal performance, and precise control, making every ride safe and enjoyable.
 
 # This Is a Hackathan Project
 
