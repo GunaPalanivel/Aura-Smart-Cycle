@@ -7,7 +7,7 @@ import TypewriterEffectSmooth from "./TypewriterEffectSmooth"; // Import the mis
 import { Link } from "react-router-dom";
 
 const LunchScreen: React.FC = () => {
-  const words = ["The", "future", "of", "cycling", "is", "here", "-", "Aura"];
+  const words = [""];
 
   return (
     <div className="typewriter-container">
