@@ -2,7 +2,8 @@
 
 ### Description
 
-Aura is a sophisticated web application built with React, aimed at transforming the way people approach cycling. It offers a comprehensive solution for bike rentals, urban commuting, and cycling enthusiasts. By seamlessly integrating AI technology, Aura provides intuitive navigation, optimal performance, and precise control, making every ride safe and enjoyable.
+Aura is a sophisticated web application built with React, aimed at transforming the way people approach cycling. It offers a comprehensive solution for bike rentals, urban commuting, and cycling enthusiasts. By seamlessly integrating AI technology, Aura provides intuitive navigation, optimal performance, and precise control, making every ride safe and enjoyable.
+
 
 # This Is a Hackathan Project
 
@@ -19,6 +20,10 @@ Features Expected
 - Booking management
 - Tracking and map integration
 - Integration of AI preferrable
+
+# LinkedIn Post
+
+To know More [Click Here](https://www.linkedin.com/posts/guna-palanivel_aura-hackathon-innovation-activity-7176974324774367232-BSgZ?utm_source=share&utm_medium=member_desktop).
   
 # Our Team Members (Team Name - Mavericks)
 
